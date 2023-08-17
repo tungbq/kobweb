@@ -3,8 +3,8 @@ package com.varabyte.kobweb.common.lang
 /**
  * Test if this string is a reserved keyword.
  *
- * See also: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
- * See also: https://kotlinlang.org/docs/keyword-reference.html
+ * @see: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+ * @see: https://kotlinlang.org/docs/keyword-reference.html
  */
 fun String.isKeyword(): Boolean {
     return when (this) {
@@ -79,7 +79,7 @@ fun String.isKeyword(): Boolean {
 /**
  * Transform an input String into one that satisfies Java package naming rules.
  *
- * See also: https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html
+ * @see: https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html
  */
 fun String.toPackageName(): String {
     var packageName = this.replace('-', '_').filter { it.isLetterOrDigit() || it == '_' }

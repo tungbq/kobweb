@@ -30,7 +30,7 @@ val DivTextStyle by ComponentStyle(prefix = "silk") {}
  * This class is useful for declaring that some text is generally meant to stand alone, separate from the rest of your
  * document.
  *
- * See also: [SpanText]. If you're not sure which to use between DivTest and SpanText, SpanText is probably safer, as
+ * @see: [SpanText]. If you're not sure which to use between DivTest and SpanText, SpanText is probably safer, as
  * spans are meant for styles that apply to a range (which is natural for text), while divs are meant for styles that
  * apply to a whole, standalone block. As such, DivText may affect your document flow in unexpected ways. If this
  * composable is called in the context of a parent flexbox composable (such as Row or Column), they will both be treated

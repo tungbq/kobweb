@@ -111,7 +111,7 @@ abstract class StyleModifiers {
      *
      * CSS rules will always be applied in the order they were registered in.
      *
-     * See also:
+     * @see:
      *   https://developer.mozilla.org/en-US/docs/Web/CSS/@media
      *   https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
      *   https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements

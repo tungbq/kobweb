@@ -122,8 +122,8 @@ class Server(
     /**
      * Configuration for CORS.
      *
-     * See also: https://ktor.io/docs/cors.html
-     * See also: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+     * @see: https://ktor.io/docs/cors.html
+     * @see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
      */
     @Serializable
     class Cors(
@@ -136,8 +136,8 @@ class Server(
      * Streaming APIs work through the WebSockets API, so configuring this section looks like configuring WebSockets.
      * Therefore, you can refer to WebSockets documentation for more details.
      *
-     * See also: https://ktor.io/docs/websocket.html
-     * See also: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+     * @see: https://ktor.io/docs/websocket.html
+     * @see: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
      *
      * @param pingPeriod The duration between pings or `0` to disable pings.
      * @param timeout The write/ping timeout after that a connection will be closed.
@@ -179,7 +179,7 @@ class Server(
     /**
      * A collection of host values that can be used to configure CORS.
      *
-     * See also: https://ktor.io/docs/cors.html#hosts
+     * @see: https://ktor.io/docs/cors.html#hosts
      *
      * @param name The hostname (and optional port), e.g. "somesite.com:1234". Do *not* put the scheme in the hostname,
      *   like "http://badexample.com". That should be mentioned separately. "*" is a special value which would mean

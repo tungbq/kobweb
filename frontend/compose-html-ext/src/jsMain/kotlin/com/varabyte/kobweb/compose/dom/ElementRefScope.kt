@@ -125,7 +125,7 @@ fun <TElementSrc : Element, TElementDst : Element> ElementScope<TElementSrc>.reg
  * }
  * ```
  *
- * See also: [disposableRef], [refScope]
+ * @see: [disposableRef], [refScope]
  *
  * @param keys Any number of keys which, if any change, will cause the effect to be disposed and restarted.
  */
@@ -147,7 +147,7 @@ fun <TElement : Element> ref(vararg keys: Any?, handle: (TElement) -> Unit) = re
  * }
  * ```
  *
- * See also: [ref], [refScope]
+ * @see: [ref], [refScope]
  *
  * @param keys Any number of keys which, if any change, will cause the effect to be disposed and restarted.
  */
@@ -177,7 +177,7 @@ fun <TElement : Element> disposableRef(
  * }
  * ```
  *
- * See also: [ref], [disposableRef]
+ * @see: [ref], [disposableRef]
  */
 fun <TElement : Element> refScope(init: ElementRefScope.Builder<TElement>.() -> Unit) = run {
     ElementRefScope.Builder<TElement>().apply(init).build()
