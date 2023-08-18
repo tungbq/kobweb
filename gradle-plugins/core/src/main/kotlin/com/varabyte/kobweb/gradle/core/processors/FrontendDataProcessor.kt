@@ -227,7 +227,7 @@ private fun processKeyframes(
  * A processor that runs over a site's frontend code, searching for Kobweb hooks like `@Page` annotations and
  * component styles.
  *
- * @see [FrontendData].
+ * See also: [FrontendData].
  *
  * @param qualifiedPagesPackage The fully qualified path to the root of the pages folder. For example,
  *   "com.site.pages"
