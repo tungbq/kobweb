@@ -28,14 +28,14 @@ abstract class MarkdownFeatures {
     /**
      * If true, convert URLs and email addresses into links automatically.
      *
-     * @see: https://github.com/commonmark/commonmark-java#autolink
+     * @see https://github.com/commonmark/commonmark-java#autolink
      */
     abstract val autolink: Property<Boolean>
 
     /**
      * If true, support front matter (a header YAML block at the top of your markdown file with key/value pairs)
      *
-     * @see: https://github.com/commonmark/commonmark-java#yaml-front-matter
+     * @see https://github.com/commonmark/commonmark-java#yaml-front-matter
      */
     abstract val frontMatter: Property<Boolean>
 
@@ -65,8 +65,8 @@ abstract class MarkdownFeatures {
     /**
      * If true, support creating tables via pipe syntax.
      *
-     * @see: https://github.com/commonmark/commonmark-java#tables
-     * @see: https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
+     * @see https://github.com/commonmark/commonmark-java#tables
+     * @see https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
      */
     abstract val tables: Property<Boolean>
 
@@ -78,7 +78,7 @@ abstract class MarkdownFeatures {
      * - [x] task #2
      * ```
      *
-     * @see: https://github.com/commonmark/commonmark-java#task-list-items
+     * @see https://github.com/commonmark/commonmark-java#task-list-items
      */
     abstract val taskList: Property<Boolean>
 

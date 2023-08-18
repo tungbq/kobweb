@@ -109,7 +109,7 @@ sealed interface Color : CSSColorValue {
     /**
      * A representation for a color specified via hue, saturation, and lightness values.
      *
-     * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl
+     * @see https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl
      *
      * @property hue An angle (0-360) representing the color based on its location in a color wheel.
      * @property saturation A percentage value (0-1) representing how grey the color is.

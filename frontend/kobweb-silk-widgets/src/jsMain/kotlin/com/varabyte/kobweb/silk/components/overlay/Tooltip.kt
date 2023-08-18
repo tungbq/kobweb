@@ -176,7 +176,7 @@ val TooltipTextContainerStyle = ComponentStyle.base("tooltip-text") {
  * This method should be configurable enough for a majority of cases, but [AdvancedTooltip] is also provided for people
  * who need even more control.
  *
- * @see: [Popover], which shows information without any outer decoration.
+ * @see [Popover], which shows information without any outer decoration.
  *
  * Note: For users who are only using silk widgets and not kobweb, then you must call [renderWithDeferred] yourself
  * first, as a parent method that this lives under. See the method for more details.
@@ -263,7 +263,7 @@ fun Tooltip(
 /**
  * A version of [Tooltip] that allows for more control over the tooltip's behavior.
  *
- * @see: [AdvancedPopover], which documents many of the parameters used here.
+ * @see [AdvancedPopover], which documents many of the parameters used here.
  */
 @Composable
 fun AdvancedTooltip(
@@ -324,7 +324,7 @@ fun AdvancedTooltip(
 /**
  * A version of [Tooltip] that allows for more control over the tooltip's behavior.
  *
- * @see: [AdvancedPopover], which documents many of the parameters used here.
+ * @see [AdvancedPopover], which documents many of the parameters used here.
  */
 @Composable
 fun AdvancedTooltip(

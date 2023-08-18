@@ -313,7 +313,7 @@ fun StyleScope.background(vararg backgrounds: CSSBackground) {
  * * This method accepts a color parameter first (in front of the vararg background layers), which renders on the bottom
  *   of everything else. This sets the expectation that "bottom" values come first.
  *
- * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/background
  */
 fun StyleScope.background(color: CSSColorValue?, vararg backgrounds: CSSBackground) {
     // CSS order is backwards (IMO). We attempt to fix that in Kobweb.

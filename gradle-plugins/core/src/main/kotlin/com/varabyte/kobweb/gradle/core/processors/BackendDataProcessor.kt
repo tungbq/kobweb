@@ -128,7 +128,7 @@ private fun processApiStreamObject(
 /**
  * A processor that runs over a site's backend code, searching for Kobweb hooks like `@Api` annotations.
  *
- * @see: [BackendData].
+ * @see [BackendData].
  *
  * @param qualifiedApiPackage The fully qualified path to the root of the pages folder. For example,
  *   "com.site.pages"

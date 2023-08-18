@@ -22,7 +22,7 @@ fun Modifier.background(vararg backgrounds: CSSBackground) = styleModifier {
  * * This method accepts a color parameter first (in front of the vararg background layers), which renders on the bottom
  *   of everything else. This sets the expectation that "bottom" values come first.
  *
- * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/background
  */
 fun Modifier.background(color: CSSColorValue?, vararg backgrounds: CSSBackground) = styleModifier {
     background(color, *backgrounds)
