@@ -80,7 +80,7 @@ abstract class AppBlock @Inject constructor(conf: KobwebConf) {
      *
      * This is a useful place to save constant values that describe your app, like a version value or build timestamp.
      *
-     * @see `com.varabyte.kobweb.core.AppGlobals`.
+     * See also: `com.varabyte.kobweb.core.AppGlobals`.
      */
     abstract val globals: MapProperty<String, String>
 

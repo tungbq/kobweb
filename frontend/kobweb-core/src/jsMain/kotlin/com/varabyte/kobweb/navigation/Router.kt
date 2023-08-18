@@ -262,7 +262,7 @@ class Router {
      *
      * That way, either the router handles the navigation or the browser does.
      *
-     * @see [navigateTo], which, if called, handles the external navigation for you.
+     * See also: [navigateTo], which, if called, handles the external navigation for you.
      *
      * @param pathQueryAndFragment The path to a page, including (optional) search params and hash,
      *   e.g. "/example/path?arg=1234#fragment". See also the

@@ -237,7 +237,7 @@ private class PopoverElements(
  * This method should be configurable enough for a majority of cases, but [AdvancedPopover] is also provided for people
  * who need even more control.
  *
- * @see [Tooltip], which wraps your composable in a sort of chat bubble, making it particularly well-suited for
+ * See also: [Tooltip], which wraps your composable in a sort of chat bubble, making it particularly well-suited for
  * text tooltips.
  *
  * Note: For users who are only using silk widgets and not kobweb, then you must call [renderWithDeferred] yourself
