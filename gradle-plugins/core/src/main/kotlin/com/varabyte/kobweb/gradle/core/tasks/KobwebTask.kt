@@ -15,7 +15,7 @@ abstract class KobwebTask @Inject constructor(desc: String) : DefaultTask() {
      * This property should only be called on tasks that are part of a Kobweb application module, or else an exception
      * will be thrown.
      *
-     * @see [KobwebApplication] for more details.
+     * See also: [KobwebApplication] for more details.
      */
     @get:Internal
     val kobwebApplication get() = KobwebApplication(project.layout.projectDirectory.asFile.toPath())
