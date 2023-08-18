@@ -22,7 +22,7 @@ class Response {
     private var _status: Int? = null
     private var _body: ByteArray? = null
 
-    /** @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Status */
+    /** See also: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status */
     var status: Int
         get() = _status ?: 400
         set(value) {
@@ -42,7 +42,7 @@ class Response {
     /**
      * The content type of the [body], e.g. "image/jpeg" or "application/json". Can include parameters.
      *
-     * @see https://www.w3.org/Protocols/rfc1341/4_Content-Type.html
+     * See also: https://www.w3.org/Protocols/rfc1341/4_Content-Type.html
      */
     var contentType: String? = null
 }

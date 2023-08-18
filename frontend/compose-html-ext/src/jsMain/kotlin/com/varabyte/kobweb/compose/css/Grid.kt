@@ -245,10 +245,10 @@ fun StyleScope.gridAutoRows(block: GridTrackBuilder.() -> Unit) {
  * Represents all possible values that can be passed into a CSS grid property.
  *
  * Note: "subgrid" and "masonry" purposely excluded as they are not widely supported
- * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
- * @see https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+ * See also: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
+ * See also: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
  *
- * @see https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+ * See also: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
  */
 sealed class GridTemplate private constructor(private val value: String) : StylePropertyValue {
     override fun toString() = value

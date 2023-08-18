@@ -19,7 +19,7 @@ import org.gradle.kotlin.dsl.get
  *
  * Please see the docs for the individual strategies for more information.
  *
- * @see https://kotlinlang.org/docs/js-project-setup.html#reporting-that-yarn-lock-has-been-updated
+ * See also: https://kotlinlang.org/docs/js-project-setup.html#reporting-that-yarn-lock-has-been-updated
  */
 sealed class YarnLockChangedStrategy {
     companion object {
